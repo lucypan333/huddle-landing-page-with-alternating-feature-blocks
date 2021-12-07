@@ -42,6 +42,7 @@ header{
   flex:1;
 }
 
+
 .btn{
   border-radius: 50px;
   border:none;
@@ -86,7 +87,6 @@ nav{
   z-index: 1;
 }
 
-
 footer{
   background-color: hsl(192,100%,9%);
   color:#fff;
@@ -95,7 +95,6 @@ footer{
 
 footer ul{
   list-style-type: none;
-  margin-left: 30px;
 }
 
 footer ul li{
@@ -118,15 +117,32 @@ footer .circle{
 }
 
 footer .logo{
-  margin-left: 40px;
-  margin-bottom: 40px;
-  width: 200px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  width: 150px;
 }
 li img{
   margin-right:10px;
 }
 
 .copyright {
-  margin-left: 20px;
-  font-size: 12px;
+  font-size: 10px;
+  position:relative;
+  left: 1200px;
+  top: 70px;
 }
+
+.contact{
+  margin-left: 50px;
+}
+
+.fyi{
+  margin-left: 50px;
+  margin-right: 0px;
+  width:120px;
+}
+
+.others{
+  margin-left: 0;
+}
+
